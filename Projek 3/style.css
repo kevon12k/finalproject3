@@ -1,0 +1,164 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+button.reset {
+  background: linear-gradient(
+    to right, #f39aa9 16%, #c94fa0 44%, #da00f7 99%);
+    color:white;
+    padding: 5px 15px;
+    border:0px;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 10%
+  }
+
+/*jumbotron*/
+.jumbotron {
+    background-color: white;
+    background-image: url(images/logo2.png);
+    background-size: fixed;
+    background-position: right;
+    width: 100%;
+    text-align: left;
+    background-repeat: no-repeat;
+}
+
+.jumbotron .display-4 {
+  color: black;
+  margin-top: 150px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0,0.6);
+  font-size: 40px;
+  margin-bottom: 30px ;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 400;
+}
+
+.tentang {
+  background-color: white;
+  background-position: right;
+  width: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.tentang .display-1 {
+  color: black;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0,0.6);
+  font-size: 40px;
+}
+
+.tentang .display-1 span {
+  font-weight: 400;
+}
+
+.kepala{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card-img-top{
+  margin: 25%;
+  width: 15rem;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.text1{
+  text-align: left;
+}
+
+.text2{
+  text-align: right;
+}
+
+.form{
+  width: 50%;
+  margin-bottom: 24px;
+  margin-top: 10%;
+}
+
+input{
+  width: 100%;
+}
+
+.btn-full{
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: yes;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+
+    .navbar-brand, .nav-link {
+      color: black!important;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.973);
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    } 
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 10%
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    
+    .jumbotron {
+      height: 640px;}
+
+    .jumbotron .display-4 {
+      font-size: 62px;
+    }
+
+    .tentang {
+      height: 125%;}
+
+    .tentang .display-1 {
+      font-size: 62px;
+    }
+    
+    .card-deck{
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+
+    }
+ }
